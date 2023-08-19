@@ -37,7 +37,10 @@ To run this project, you'll need the following:
 
 2. Open the project in your IDE.
 3. Configure your database connection in the application.properties file.
-4. Run the application from your IDE.
+4. Run Maven goals using the `mvnw` script. You can use it just like you would use the mvn command. For example, to build the project, you can use:
+
+   ```sh
+   mvnw.cmd clean install
 
 ## Contributing
 Contributions are welcome! If you encounter any bugs or have ideas for improvements, feel free to open an issue or submit a pull request.
